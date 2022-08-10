@@ -19,6 +19,7 @@ it ('Teste pagina Altoro Mutual ', () => {
     cy.get('input#passw').type ('Demo1234');
     cy.get(':nth-child(3) > :nth-child(2) > input').click();
     // Apartir daqui novo teste
+    //criado novo repositorio
 
    
 
