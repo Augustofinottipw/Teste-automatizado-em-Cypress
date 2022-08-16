@@ -20,8 +20,10 @@ it ('Teste pagina Altoro Mutual ', () => {
     cy.get(':nth-child(3) > :nth-child(2) > input').click();
     // Apartir daqui novo teste
     //criado novo repositorio
-
-   
+    cy.get('#MenuHyperLink1').click();
+    cy.get('#btnGetAccount').click();
+    
+    
 
 
 
